@@ -17,16 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="weather-app">
         <div class="overview">
-          <h1>New York</h1>
+          <h1 id="city"></h1>
           <ul>
             <li>Saturday 17:00</li>
-            <li>Cloudy</li>
+            <li id="description"></li>
           </ul>
         </div>
         <div class="row">
@@ -34,7 +35,7 @@
             <div class="d-flex weather-temperature">
               <img src="src/images/cloud.png" alt="clouds" id="icon" />
               <div>
-                <strong id="main-temperature">16</strong>
+                <strong id="main-temperature"></strong>
                 <span class="units">
                   <span id="unit-celsius"> °C </span> |
                   <span id="unit-fahrenheit"> °F </span>
@@ -44,8 +45,8 @@
           </div>
           <div class="col-6">
             <ul>
-              <li>humidity : 16%</li>
-              <li>wind : 20km/h</li>
+              <li>Humidity : <span id="humidity"></span>%</li>
+              <li>Wind : <span id="wind"></span> km/h</li>
             </ul>
           </div>
         </div>

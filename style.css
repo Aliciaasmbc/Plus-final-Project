@@ -7,10 +7,12 @@ h1 {
   font-size: 25px;
   font-weight: 100;
   line-height: 25px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 ul {
   margin: 0;
+  margin-bottom: 15px;
   padding: 0;
 }
 
@@ -38,6 +40,11 @@ a:link {
 }
 
 .weather-app {
+  background: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 202, 251) 100.2%
+  );
   max-width: 600px;
   margin: 50px auto 15px;
   padding: 20px;

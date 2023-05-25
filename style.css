@@ -33,6 +33,10 @@ small {
   padding-left: 10px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .weather-app {
   max-width: 600px;
   margin: 50px auto 15px;
@@ -62,4 +66,12 @@ small {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+
+.weather-temperature .active {
+  color: #242527;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }

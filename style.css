@@ -82,3 +82,21 @@ a:link {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.forecast-days {
+  font-size: 16px;
+  color: #242527;
+  opacity: 0.8;
+}
+.forecast-temperature {
+  font-size: 16px;
+  color: #242527;
+}
+.min-temp {
+  opacity: 0.6;
+}

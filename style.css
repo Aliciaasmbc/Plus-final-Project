@@ -50,6 +50,7 @@ a:link {
   padding: 20px;
   border: 1px solid #dadce0;
   border-radius: 20px;
+  max-height: fit-content;
 }
 
 .overview {

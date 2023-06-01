@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-image: url(src/images/arcticcloud.jpg);
+  background-size: cover;
 }
 
 h1 {
@@ -40,11 +42,8 @@ a:link {
 }
 
 .weather-app {
-  background: radial-gradient(
-    1224px at 10.6% 8.8%,
-    rgb(255, 255, 255) 0%,
-    rgb(153, 202, 251) 100.2%
-  );
+  background: rgb(248, 248, 239);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4);
   max-width: 600px;
   margin: 50px auto 15px;
   padding: 20px;

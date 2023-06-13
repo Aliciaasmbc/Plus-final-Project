@@ -135,12 +135,12 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
-search("Salon de Provence");
+search("Lançon-Provence");
 
 function CurrentPosition(position) {
   let longitude = position.coords.longitude;
   let latitude = position.coords.latitude;
-  let apiKey = "0be4d0ade7d8f64fb3ca53dd30f6fotd";
+  let apiKey = "961b8970tof1b84c9614f32a0babd4e4";
   let apiPositionUrl = `https://api.shecodes.io/weather/v1/current?lat=${latitude}&lon=${longitude}&key=${apiKey}&units=metric`;
 
   axios.get(apiPositionUrl).then(displayTemperature);
